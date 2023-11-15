@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+}
+:root{
+    --minion-color:#f5e050;
+}
+/*icon play*/
+.icon-play{
+    background-color:var(--minion-color) ;
+    width: 6em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1em solid white;
+    position: absolute;
+    top: 7em;
+    left: 60%;
+}
+.triangle{
+    width: 2em;
+    height:2em ;
+    background-color: white;
+    clip-path: polygon(50% 0, 100% 100%,0 100%);
+    transform: rotate(95deg);
+    margin-top: 1em;
+    margin-left: 1.25rem;
+}
+/*icon play*/
+.header {
+    background-color: var(--minion-color);
+    width: 100%;
+    height: 25em;
+    clip-path: polygon(0% 100%, 0% 0%,100% 100%);
+    transform: rotateX(180deg);
+}
+
+.p1{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 8em;
+    left: 43%;
+
+}
+/*minion one*/
+.minion{
+    width: 15em;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 5%;
+}
+.shadow{
+    width: 5em;
+    height: 0.5em;
+    background-color: #151515;
+    filter: blur(10px);
+    position: absolute;
+    top: 17em;
+    left: 10%;
+}
+/*minion one*/
+/*minion 2*/
+.minion-2{
+    width: 13em;
+    height: 25em;
+    display: block;
+    position: absolute;
+    left: 65%;
+    top: 10em;
+    z-index: 2;
+}
+/*text-2*/
+.text{
+    width: 35%;
+    margin-left: 21%;
+    margin-top: -1em;
+}
+#meet{
+    color: var(--minion-color);
+    font-size: 2em;
+}
+#name{
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+/*third part*/
+.third-container{
+    box-sizing: border-box;
+background-color: var(--minion-color);
+width: 99%;
+height: 35em;
+/*transform:skewY(-10deg) scaleY(1) scaleX(1);*/
+z-index: 1;
+clip-path: polygon(0% 100%, 100% 0%,100% 100%);
+position: absolute;
+top: 25em;
+}
+.text-2{
+    width: 35%;
+    position: absolute;
+    left:50%;
+    top: 40em;
+    text-align: end;
+    z-index: 2;
+}
+#meet-2{
+    font-size: 2em;
+    color: white;
+}
+.p2-2{
+    text-align: end;
+}
+.p1-2{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 50em;
+    left: 22em;
+    z-index: 2;
+}
+.icon-play-2{
+    background-color:var(--minion-color) ;
+    width: 6em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1em solid white;
+    left: 15em;
+    top: 49em;
+    position: absolute;
+    z-index: 2;
+}
+.triangle-2{
+    width: 2em;
+    height:2em ;
+    background-color: white;
+    clip-path: polygon(50% 0, 100% 100%,0 100%);
+    transform: rotate(95deg);
+    margin-top: 1em;
+    margin-left: 1.25rem;
+}
+.minion-3{
+    width: 15em;
+    height: 30em;
+    display: block;
+    position: absolute;
+    top: 50em;
+    left: 20em;
+    display: none;
+}
